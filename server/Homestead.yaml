@@ -1,0 +1,19 @@
+ip: 192.168.10.12
+memory: 2048
+cpus: 1
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    -
+        map: /Users/yushuangyang/workspace/study/lumen-api-demo
+        to: /home/vagrant/Code/lumen-api-demo
+sites:
+    -
+        map: lumen-api-demo.app
+        to: /home/vagrant/Code/lumen-api-demo/public
+databases:
+    - homestead
+name: lumen-api-demo
+hostname: lumen-api-demo

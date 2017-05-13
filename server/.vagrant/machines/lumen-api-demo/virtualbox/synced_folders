@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/Code/lumen-api-demo":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/Code/lumen-api-demo","hostpath":"/Users/yushuangyang/workspace/study/lumen-api-demo","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/yushuangyang/workspace/study/lumen-api-demo","disabled":false,"__vagrantfile":true}}}
