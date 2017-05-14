@@ -7,4 +7,4 @@ First, I consume that you have installed whole environment(virtualbox, laravel/h
 * php vendor/bin/homestead make
 * vi Homestead.yaml and copy the first line of ip
 * vi /etc/hosts and add one line:
-      xxx.xxx.xxx.xxx(the ip you got from last step) xxx(your project name)  
+        xxx.xxx.xxx.xxx(the ip you got from last step) xxx(your project name)  
