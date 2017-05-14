@@ -15,4 +15,8 @@ First, I consume that you have installed whole environment(virtualbox, laravel/h
 * php artisan migrate
 * php artisan db:seed
 * exit
-* vagrant up
+* vagrant up and now the server is ready
+* cd ../client
+* npm i
+* npm install babel-preset-env --save-dev
+* npm run dev
