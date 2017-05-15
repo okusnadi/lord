@@ -10,7 +10,7 @@ First, I consume that you have installed whole environment(virtualbox, laravel/h
     $ vi Homestead.yaml and copy the first line of ip
     $ vi /etc/hosts and add one line:
           xxx.xxx.xxx.xxx(the ip you got from last step) xxx(your project name)  
-     config the project(.env)   
+    $ config the project(.env)   
     $ vagrant ssh(entry the virtual server)
     $ php artisan migrate
     $ php artisan db:seed
