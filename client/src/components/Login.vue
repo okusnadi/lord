@@ -226,6 +226,8 @@ export default {
     methods: {
       login() {
         var redirect = this.$auth.redirect();
+        console.log("this is redirect");
+        console.log(redirect);
         this.$auth.login({
             body: this.data.body,
             rememberMe: this.data.rememberMe,
@@ -241,12 +243,6 @@ export default {
                 this.error = res.data;
             }
         });
-      },
-      test() {
-        this.$http.post("http://coolmeet.app/api/auth/login", {phone: "13602630455", password: "88888888"}).then(function(res){
-          console.log(11111);
-          console.log(res);
-        })
       },
       getVrCode() {
           this.$http.get("/api/getVrCode?phone="+this.data.body.phone).then(function(res) {

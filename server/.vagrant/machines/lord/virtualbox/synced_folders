@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/Code/lord":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/Code/lord","hostpath":"/Users/yushuangyang/workspace/lord/server","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/yushuangyang/workspace/lord/server","disabled":false,"__vagrantfile":true}}}

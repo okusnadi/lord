@@ -217,8 +217,6 @@ class UserController extends BaseController
      */
     public function store(Request $request)
     {
-        echo 898;
-        exit;
         $validator = \Validator::make($request->input(), [
             'phone' => 'required|phone|unique:users',
             'email' => 'required|email|unique:users',

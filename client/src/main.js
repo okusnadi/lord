@@ -14,7 +14,7 @@ Vue.filter("formatTime", function(value){
   return year+"-"+month+"-"+date
 })
 
-Vue.http.options.root = "http://coolmeet.app/api"
+Vue.http.options.root = "http://lord.app/api"
 Vue.router = new VueRouter({
     hashbang: false,
     linkActiveClass: 'active',

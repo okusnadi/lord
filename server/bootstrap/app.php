@@ -87,6 +87,7 @@ $app->routeMiddleware([
 */
 
 // dingo/api
+$app->register(Yajra\Datatables\DatatablesServiceProvider::class);
 $app->register(Dingo\Api\Provider\LumenServiceProvider::class);
 //jwt
 $app->register(Tymon\JWTAuth\Providers\LumenServiceProvider::class);

@@ -7,13 +7,13 @@ keys:
     - ~/.ssh/id_rsa
 folders:
     -
-        map: /Users/yushuangyang/workspace/study/lumen-api-demo
-        to: /home/vagrant/Code/lumen-api-demo
+        map: /Users/yushuangyang/workspace/lord/server
+        to: /home/vagrant/Code/lord
 sites:
     -
-        map: lumen-api-demo.app
-        to: /home/vagrant/Code/lumen-api-demo/public
+        map: lord.app
+        to: /home/vagrant/Code/lord/public
 databases:
     - homestead
-name: lumen-api-demo
-hostname: lumen-api-demo
+name: lord
+hostname: lord

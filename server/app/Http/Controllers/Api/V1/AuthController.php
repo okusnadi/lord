@@ -37,8 +37,13 @@ class AuthController extends BaseController
      */
 
     public function refresh(Request $request)
-    {
-        return response($request->header("Authorization"));
+    {   $bear_token = $request->header("Authorization");
+        $token = explode("Bearer ", $bear_token)[1];
+        $result = [];
+        $result['data'] = [
+          "token" => $token
+        ];
+        return $this->response->array($result);
     }
 
     public function store(Request $request)
@@ -51,7 +56,6 @@ class AuthController extends BaseController
       if ($validator->fails()) {
           return $this->errorBadRequest($validator);
       }
-
       $credentials = $request->only('phone', 'password');
 
       // 验证失败返回403
