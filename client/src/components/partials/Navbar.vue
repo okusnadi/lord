@@ -251,6 +251,9 @@ export default {
 
     }
   },
+  created: function() {
+    console.log("this is nav");
+  },
   components: {
   },
   methods: {

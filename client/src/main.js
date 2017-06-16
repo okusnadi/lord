@@ -5,8 +5,9 @@ import App from './App'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 Vue.use(VueResource);
+// Vue.use(Vuetable);
 Vue.filter("formatTime", function(value){
   var year=value.getFullYear();
   var month=value.getMonth()+1;

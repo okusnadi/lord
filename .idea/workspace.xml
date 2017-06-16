@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea9a15a-c69b-4841-ba30-0657f09a7119" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/lumen-api-demo" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/auth.js" afterPath="$PROJECT_DIR$/client/src/auth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Login.vue" afterPath="$PROJECT_DIR$/client/src/components/Login.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/user/Index.vue" afterPath="$PROJECT_DIR$/client/src/components/user/Index.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main.js" afterPath="$PROJECT_DIR$/client/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/static/vue-auth.min.js" afterPath="$PROJECT_DIR$/client/static/vue-auth.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/.vagrant/machines/lumen-api-demo/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/server/.vagrant/machines/lumen-api-demo/virtualbox/action_set_name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/.vagrant/machines/lumen-api-demo/virtualbox/synced_folders" afterPath="$PROJECT_DIR$/server/.vagrant/machines/lumen-api-demo/virtualbox/synced_folders" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/Homestead.yaml" afterPath="$PROJECT_DIR$/server/Homestead.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/app/Http/Controllers/Api/V1/AuthController.php" afterPath="$PROJECT_DIR$/server/app/Http/Controllers/Api/V1/AuthController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/app/Http/Controllers/Api/V1/UserController.php" afterPath="$PROJECT_DIR$/server/app/Http/Controllers/Api/V1/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/bootstrap/app.php" afterPath="$PROJECT_DIR$/server/bootstrap/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/composer.json" afterPath="$PROJECT_DIR$/server/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/composer.lock" afterPath="$PROJECT_DIR$/server/composer.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,14 +16,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Index.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Index.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/components/user/Index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="82" column="68" lean-forward="false" selection-start-line="82" selection-start-column="68" selection-end-line="82" selection-end-column="68" />
-              <folding>
-                <element signature="e#6438#6485#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="295">
+              <caret line="198" column="29" lean-forward="false" selection-start-line="198" selection-start-column="29" selection-end-line="198" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vuetable.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/node_modules/vuetable-2/src/components/Vuetable.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="853" column="1" lean-forward="true" selection-start-line="853" selection-start-column="1" selection-end-line="853" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -45,11 +39,21 @@
       <file leaf-file-name="DataTableController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/app/Http/Controllers/Api/V1/DataTableController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
+            <state relative-caret-position="415">
               <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
               <folding>
                 <element signature="e#40#72#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="v1.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/routes/api/v1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatatablesServiceProvider.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DatatablesServiceProvider.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/vendor/yajra/laravel-datatables-oracle/src/DatatablesServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="83">
@@ -77,8 +81,8 @@
       <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/app/Http/Controllers/Api/V1/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="38" lean-forward="false" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="38" />
+            <state relative-caret-position="-2559">
+              <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
               <folding>
                 <element signature="e#47#65#0#PHP" expanded="true" />
               </folding>
@@ -90,16 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>vali</find>
-      <find>v</find>
-      <find>va</find>
-      <find>val</find>
-      <find>validateEmai</find>
-      <find>validateEmail</find>
-      <find>fetchData.url</find>
-      <find>fetchData.ur</find>
-      <find>fetchData.</find>
-      <find>fetchData.u</find>
       <find>fetchData</find>
       <find>transitionEach</find>
       <find>fetch</find>
@@ -112,12 +106,24 @@
       <find>.login</find>
       <find>registerProcess</find>
       <find>Process</find>
-      <find>url</find>
       <find>loginData</find>
       <find>loginPerform</find>
       <find>vuetable</find>
       <find>_cons</find>
       <find>page</find>
+      <find>$nextTick</find>
+      <find>loadData</find>
+      <find>created</find>
+      <find>url</find>
+      <find>p</find>
+      <find>pe</find>
+      <find>per_pa</find>
+      <find>per_page=</find>
+      <find>per_page+</find>
+      <find>per_page</find>
+      <find>s</find>
+      <find>sort=</find>
+      <find>Route</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -138,8 +144,10 @@
         <option value="$PROJECT_DIR$/client/src/auth.js" />
         <option value="$PROJECT_DIR$/client/static/vue-auth.min.js" />
         <option value="$PROJECT_DIR$/client/node_modules/@websanova/vue-auth/src/auth.js" />
-        <option value="$PROJECT_DIR$/client/src/components/user/Index.vue" />
         <option value="$PROJECT_DIR$/server/app/Http/Controllers/Api/V1/DataTableController.php" />
+        <option value="$PROJECT_DIR$/client/src/components/user/Index.vue" />
+        <option value="$PROJECT_DIR$/client/node_modules/vuetable-2/src/components/Vuetable.vue" />
+        <option value="$PROJECT_DIR$/server/routes/api/v1.php" />
       </list>
     </option>
   </component>
@@ -215,7 +223,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -233,71 +241,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="V1" />
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -730,16 +678,15 @@
       <updated>1494741492800</updated>
       <workItem from="1494741494755" duration="1004000" />
       <workItem from="1494842555008" duration="1752000" />
-      <workItem from="1494900675323" duration="2530000" />
+      <workItem from="1494900675323" duration="5845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5286000" />
+    <option name="totallyTimeSpent" value="8601000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="23" width="1234" height="777" extended-state="6" />
-    <editor active="true" />
+    <frame x="46" y="23" width="1234" height="777" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -754,6 +701,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -899,16 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/user/Index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="82" column="68" lean-forward="false" selection-start-line="82" selection-start-column="68" selection-end-line="82" selection-end-column="68" />
-          <folding>
-            <element signature="e#6438#6485#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/vendor/laravelcollective/html/src/FormBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -925,26 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/app/Http/Controllers/Api/V1/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="38" lean-forward="false" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="38" />
-          <folding>
-            <element signature="e#47#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app/Http/Controllers/Api/V1/DataTableController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-          <folding>
-            <element signature="e#40#72#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/vendor/yajra/laravel-datatables-oracle/src/Facades/Datatables.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -957,6 +875,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
           <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/vue/types/vue.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="65" column="2" lean-forward="false" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/vuetable-2/dist/vuetable-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="6" column="13496" lean-forward="false" selection-start-line="6" selection-start-column="13496" selection-end-line="6" selection-end-column="13496" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/vendor/illuminate/pagination/AbstractPaginator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/vendor/illuminate/pagination/Paginator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="144" column="36" lean-forward="true" selection-start-line="144" selection-start-column="36" selection-end-line="144" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/public/apidoc/api_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/vuetable-2/src/components/Vuetable.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="853" column="1" lean-forward="true" selection-start-line="853" selection-start-column="1" selection-end-line="853" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/Http/Controllers/Api/V1/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2559">
+          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+          <folding>
+            <element signature="e#47#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/Http/Controllers/Api/V1/DataTableController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="e#40#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routes/api/v1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/user/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="198" column="29" lean-forward="false" selection-start-line="198" selection-start-column="29" selection-end-line="198" selection-end-column="29" />
           <folding />
         </state>
       </provider>

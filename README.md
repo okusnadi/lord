@@ -1,6 +1,6 @@
 This is a common admin template with vue, ACE(by twitter) and lumen, to help you save time on your admin building!
 ### INSTALL
-First, I consume that you have installed whole environment(virtualbox, laravel/homestead and lumen) for lumen
+First, I consume that you have installed whole environment(virtualbox, laravel/homestead and lumen) for lumen amd vue, then do as below in terminal:
 
     $ git clone git@github.com:DwyaneYu/lord.git
     $ cd server

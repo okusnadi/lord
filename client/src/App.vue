@@ -24,3 +24,8 @@ export default {
   }
 }
 </script>
+<style>
+.sidebar+.main-content {
+  margin-left: 190px !important;
+}
+</style>
