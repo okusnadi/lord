@@ -134,3 +134,8 @@ export default {
   }
 }
 </script>
+<style>
+.login-layout .main-content {
+  padding-left: 0;
+}
+</style>
