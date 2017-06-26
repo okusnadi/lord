@@ -238,9 +238,10 @@
             li.divider
             |
             li
-              a(href="#")
+              a(@click="loginout()")
                 i.ace-icon.fa.fa-power-off
                 | 										Logout
+
   // /.navbar-container
 
 </template>
@@ -252,11 +253,17 @@ export default {
     }
   },
   created: function() {
-    console.log("this is nav");
   },
   components: {
   },
   methods: {
+    loginout () {
+      this.$auth.logout({
+        makeRequest: true,
+        params: {},
+        redirect: '/login'
+      });
+    }
 
   }
 }

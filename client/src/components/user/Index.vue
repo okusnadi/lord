@@ -78,7 +78,8 @@ div
                 i.ace-icon.fa.fa-angle-double-right
                 | 									Static & Dynamic Tables
           .vuetable-wrapper.ui.container.segment.vuetable-pagination
-            vuetable(ref="vuetable", api-url="https://vuetable.ratiw.net/api/users", :fields="['name', 'email', 'birthdate']", pagination-path="", @vuetable:pagination-data="onPaginationData")      
+            filter-bar
+            vuetable(ref="vuetable", api-url="https://vuetable.ratiw.net/api/users", :fields="fields", pagination-path="", @vuetable:pagination-data="onPaginationData")      
             vuetable-pagination-info(ref="paginationInfo")
             vuetable-pagination(ref="pagination", @vuetable-pagination:change-page="onChangePage")
  
@@ -91,7 +92,7 @@ import breadcrumb from "../partials/Breadcrumb"
 import Vuetable from 'vuetable-2/src/components/Vuetable'
 import VuetablePagination from 'vuetable-2/src/components/VuetablePagination'
 import VuetablePaginationInfo from 'vuetable-2/src/components/VuetablePaginationInfo'
-
+import accounting from 'accounting'
 export default {
   name: 'app',
   components: {
@@ -99,7 +100,27 @@ export default {
   },
   data () {
     return {
-
+      fields: [{
+          name: 'name',
+          callback: 'allcap',
+          sortField: 'name'
+        }, {
+          name: 'email',
+          sortField: 'email'
+        },{
+          name: 'gender',
+          titleClass: 'center aligned',
+          dataClass: 'center aligned',
+          callback: 'genderLabel',
+          sortField: 'gender'
+        },{
+            name: 'salary',
+            titleClass: 'center aligned',
+            dataClass: 'right aligned',
+            callback: 'formatNumber',
+            sortField: 'salary'
+        }
+      ]
     }
   },
   methods: {
@@ -113,24 +134,34 @@ export default {
     },
     getUsers () {
       this.$http.get("http://datatable.app/eloquent/basic-columns-data").then(function(res){
-        console.log(res.body.data);
         this.users = res.body.data;
       })
     },
     viewProfile: function(id) {
-        console.log('view profile with id:', id)
     },
-    events: {
-          'vuetable:action': function(action, data) {
-              console.log('vuetable:action', action, data)
-              if (action == 'view-item') {
-                  this.viewProfile(data.id)
-              }
-          },
-          'vuetable:load-error': function(response) {
-              console.log('Load Error: ', response)
-          }
-      }
+    // events: {
+    //       'vuetable:action': function(action, data) {
+    //           console.log('vuetable:action', action, data)
+    //           if (action == 'view-item') {
+    //               this.viewProfile(data.id)
+    //           }
+    //       },
+    //       'vuetable:load-error': function(response) {
+    //           console.log('Load Error: ', response)
+    //       }
+    // },
+    genderLabel (value) {
+        return value === 'M'
+          ? '<span class="ui teal label"><i class="large man icon"></i>Male</span>'
+          : '<span class="ui pink label"><i class="large woman icon"></i>Female</span>'
+    },
+    allcap (value) {
+        return value.toUpperCase()
+    },
+    formatNumber (value) {
+        return accounting.formatNumber(value, 2)
+    }
+    
   }
 }
 </script>

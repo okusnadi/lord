@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
+import FilterBar from "./components/partials/FilterBar"
 
 Vue.use(VueRouter);
 Vue.use(VueResource);
@@ -12,8 +13,9 @@ Vue.filter("formatTime", function(value){
   var year=value.getFullYear();
   var month=value.getMonth()+1;
   var date=value.getDate();
-  return year+"-"+month+"-"+date
+  return year+"-"+month+"-"+date;
 })
+Vue.component('filter-bar', FilterBar)
 
 Vue.http.options.root = "http://lord.app/api"
 Vue.router = new VueRouter({
